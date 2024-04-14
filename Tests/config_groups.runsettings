@@ -1,0 +1,9 @@
+﻿<RunSettings>
+	<NUnit>
+		<assembly path="YourTestProject.dll" />
+		<settings>
+			<!-- NUnit settings go here -->
+			<add key="TestFilter" value="cat==B &amp;&amp; !cat==A" />
+		</settings>
+	</NUnit>
+</RunSettings>
